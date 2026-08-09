@@ -73,6 +73,22 @@
   }
 }
 
+@keyframes v-reveal {
+  from {
+    translate: 0 1.5rem;
+  }
+}
+
+@utility v-reveal {
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      animation: v-reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 50%;
+    }
+  }
+}
+
 @utility v-card-purple {
   --card-bg: var(--color-purple-500);
   --card-name: var(--color-white);

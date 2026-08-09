@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { CardTheme, Testimonial } from "@/data";
 
 const THEME_CLASS: Record<CardTheme, string> = {
@@ -19,16 +18,16 @@ export default function TestimonialCard({
 }: Testimonial) {
   return (
     <figure
-      className={`v-card ${THEME_CLASS[theme]}`}
+      className={`v-card v-reveal ${THEME_CLASS[theme]}`}
       data-quote-mark={quoteMark}
     >
       <figcaption className="flex items-center gap-4">
-        <Image
-          src={avatar}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={avatar.src}
           alt=""
           width={28}
           height={28}
-          loading="eager"
           className="rounded-full ring-2 ring-purple-300"
         />
         <div className="flex flex-col gap-1">
