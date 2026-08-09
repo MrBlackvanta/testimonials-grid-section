@@ -7,7 +7,7 @@ const PLACEMENT: Record<TestimonialId, string> = {
   jonathan: "",
   jeanette: "",
   patrick: "md:col-span-2",
-  kira: "md:col-span-2 lg:col-span-1 lg:col-start-4 lg:row-span-2 lg:row-start-1",
+  kira: "md:col-span-2 xl:col-span-1 xl:col-start-4 xl:row-span-2 xl:row-start-1",
 };
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
 
         <ul
           role="list"
-          className="v-container grid gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-7.5 lg:gap-y-6"
+          className="v-container grid gap-8 md:grid-cols-2 xl:grid-cols-4 xl:gap-x-7.5 xl:gap-y-6"
         >
           {testimonials.map((testimonial) => (
             <li key={testimonial.id} className={PLACEMENT[testimonial.id]}>

@@ -21,6 +21,7 @@
   --text-role--line-height: 1;
 
   --container-page: 69.375rem;
+  --container-stacked: 55rem;
 
   --shadow-card: 40px 60px 50px -47px rgb(72 85 106 / 0.247);
 }
@@ -47,7 +48,12 @@
 
 @utility v-container {
   @apply mx-auto w-full px-8.75 md:px-15;
-  max-width: calc(var(--container-page) + 7.5rem);
+
+  max-width: calc(var(--container-stacked) + 7.5rem);
+
+  @variant xl {
+    max-width: calc(var(--container-page) + 7.5rem);
+  }
 }
 
 @utility v-card {
