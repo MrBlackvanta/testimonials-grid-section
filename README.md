@@ -21,7 +21,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/testimonials-grid-section)
-- Live Site URL: [Netlify](https://vanta-testimonials-grid-section.netlify.app)
+- Live Site URL: [Cloudflare](https://testimonials-grid-section.abdelrhman-ahmed8881.workers.dev)
+- Mirror: [Netlify](https://vanta-testimonials-grid-section.netlify.app)
 
 ## My process
 

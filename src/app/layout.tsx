@@ -12,7 +12,7 @@ const barlowSemiCondensed = Barlow_Semi_Condensed({
 const title = "Testimonials grid section";
 const description =
   "Five bootcamp graduates on what changed after the course — a Frontend Mentor challenge built with Next.js, TypeScript, and Tailwind CSS.";
-const siteUrl = "https://vanta-testimonials-grid-section.netlify.app";
+const siteUrl = "https://testimonials-grid-section.abdelrhman-ahmed8881.workers.dev";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
