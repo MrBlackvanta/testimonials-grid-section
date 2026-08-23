@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="v-container pb-0.5 text-center text-role">
+    <footer className="absolute inset-x-0 bottom-0 v-container pb-0.5 text-center text-role">
       Challenge by{" "}
       <a
         className="v-footer-link"

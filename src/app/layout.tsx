@@ -12,7 +12,8 @@ const barlowSemiCondensed = Barlow_Semi_Condensed({
 const title = "Testimonials grid section";
 const description =
   "Five bootcamp graduates on what changed after the course — a Frontend Mentor challenge built with Next.js, TypeScript, and Tailwind CSS.";
-const siteUrl = "https://testimonials-grid-section.abdelrhman-ahmed8881.workers.dev";
+const siteUrl =
+  "https://testimonials-grid-section.abdelrhman-ahmed8881.workers.dev";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -46,7 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${barlowSemiCondensed.variable} antialiased`}>
-      <body className="flex min-h-dvh flex-col">{children}</body>
+      <body className="relative flex min-h-dvh flex-col">{children}</body>
     </html>
   );
 }
