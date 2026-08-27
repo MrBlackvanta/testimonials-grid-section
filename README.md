@@ -22,7 +22,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/testimonials-grid-section)
 - Live Site URL: [Cloudflare](https://testimonials-grid-section.abdelrhman-ahmed8881.workers.dev)
-- Mirror: [Netlify](https://vanta-testimonials-grid-section.netlify.app)
 
 ## My process
 
@@ -116,6 +115,6 @@ the design JPGs. All five are circle-masked transparent WebP at 56px, built by
 
 ## Author
 
-- UpWork - [Abdelrhman Abdelaal](https://upwork.com/freelancers/~01f0a9479696b61f49)
+- UpWork - [Abdelrhman Abdelaal](https://www.upwork.com/freelancers/mrblackvanta)
 - Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
 - LinkedIn - [Abdelrhman Abdelaal](https://www.linkedin.com/in/abdelrhman-vanta/)
