@@ -9,11 +9,20 @@ const barlowSemiCondensed = Barlow_Semi_Condensed({
   display: "swap",
 });
 
-const title = "Testimonials grid section";
+const siteName = "Cohort";
+const title = `${siteName} | Verified graduates`;
 const description =
-  "Five bootcamp graduates on what changed after the course — a Frontend Mentor challenge built with Next.js, TypeScript, and Tailwind CSS.";
+  "Five graduates on the twelve weeks that changed their careers: mid-course job offers, career switches and the teaching support behind them.";
 const siteUrl =
   "https://testimonials-grid-section.abdelrhman-ahmed8881.workers.dev";
+const images = [
+  {
+    url: "/opengraph-image.jpg",
+    width: 1200,
+    height: 630,
+    alt: "Five verified graduates of Cohort on what changed after the course",
+  },
+];
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -24,14 +33,16 @@ export const metadata: Metadata = {
     title,
     description,
     url: "/",
-    siteName: title,
+    siteName,
     locale: "en_US",
     type: "website",
+    images,
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title,
     description,
+    images,
   },
 };
 
