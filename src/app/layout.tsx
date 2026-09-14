@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Barlow_Semi_Condensed } from "next/font/google";
+import { siteUrl } from "@/app/site";
 import "./globals.css";
 
 const barlowSemiCondensed = Barlow_Semi_Condensed({
@@ -13,8 +14,6 @@ const siteName = "Cohort";
 const title = `${siteName} | Verified graduates`;
 const description =
   "Five graduates on the twelve weeks that changed their careers: mid-course job offers, career switches and the teaching support behind them.";
-const siteUrl =
-  "https://testimonials-grid-section.abdelrhman-ahmed8881.workers.dev";
 const images = [
   {
     url: "/opengraph-image.jpg",
